@@ -11,13 +11,11 @@
 
 @interface TDDynamicViews : NSObject <TDViewCompiler> {
     UIWebView * __weak webView;
-    BOOL useJQuery;
+    NSMutableDictionary *context;
 }
 
 @property(nonatomic, weak) UIWebView *webView;
-@property(nonatomic) BOOL useJQuery;
 
 - (id) initWithWebView:(UIWebView *)webView;
-+ (TDStatus) emitKey:(id)key andValue:(id)value forUUID:(NSString *)uuid;
 
 @end

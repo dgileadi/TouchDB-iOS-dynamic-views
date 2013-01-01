@@ -26,9 +26,7 @@
 		BDA52E5B166D2A3D008280E6 /* TDDynamicViews.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BDA52E5A166D2A3D008280E6 /* TDDynamicViews.h */; };
 		BDA52E69166D2B20008280E6 /* Expression.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA52E66166D2B20008280E6 /* Expression.m */; };
 		BDA52E6A166D2B20008280E6 /* TDDynamicViews.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA52E67166D2B20008280E6 /* TDDynamicViews.m */; };
-		BDA52E6B166D2B20008280E6 /* TDRouter+EmitHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA52E68166D2B20008280E6 /* TDRouter+EmitHandler.m */; };
 		BDA52E6D166D2B7B008280E6 /* TDDynamicViews.h in Headers */ = {isa = PBXBuildFile; fileRef = BDA52E5A166D2A3D008280E6 /* TDDynamicViews.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BDA52E6F166D2B89008280E6 /* TDRouter+EmitHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = BDA52E65166D2B20008280E6 /* TDRouter+EmitHandler.h */; };
 		BDA52E70166D2B89008280E6 /* Expression.h in Headers */ = {isa = PBXBuildFile; fileRef = BDA52E63166D2B20008280E6 /* Expression.h */; };
 /* End PBXBuildFile section */
 
@@ -160,10 +158,8 @@
 		BDA52E59166D2A3D008280E6 /* TDDynamicViews-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TDDynamicViews-Prefix.pch"; sourceTree = "<group>"; };
 		BDA52E5A166D2A3D008280E6 /* TDDynamicViews.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDDynamicViews.h; sourceTree = "<group>"; };
 		BDA52E63166D2B20008280E6 /* Expression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Expression.h; sourceTree = "<group>"; };
-		BDA52E65166D2B20008280E6 /* TDRouter+EmitHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TDRouter+EmitHandler.h"; sourceTree = "<group>"; };
 		BDA52E66166D2B20008280E6 /* Expression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Expression.m; sourceTree = "<group>"; };
 		BDA52E67166D2B20008280E6 /* TDDynamicViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDDynamicViews.m; sourceTree = "<group>"; };
-		BDA52E68166D2B20008280E6 /* TDRouter+EmitHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TDRouter+EmitHandler.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,8 +225,6 @@
 			children = (
 				BDA52E5A166D2A3D008280E6 /* TDDynamicViews.h */,
 				BDA52E67166D2B20008280E6 /* TDDynamicViews.m */,
-				BDA52E65166D2B20008280E6 /* TDRouter+EmitHandler.h */,
-				BDA52E68166D2B20008280E6 /* TDRouter+EmitHandler.m */,
 				BDA52E63166D2B20008280E6 /* Expression.h */,
 				BDA52E66166D2B20008280E6 /* Expression.m */,
 				BDA52E58166D2A3D008280E6 /* Supporting Files */,
@@ -255,7 +249,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDA52E6D166D2B7B008280E6 /* TDDynamicViews.h in Headers */,
-				BDA52E6F166D2B89008280E6 /* TDRouter+EmitHandler.h in Headers */,
 				BDA52E70166D2B89008280E6 /* Expression.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,7 +439,6 @@
 			files = (
 				BDA52E69166D2B20008280E6 /* Expression.m in Sources */,
 				BDA52E6A166D2B20008280E6 /* TDDynamicViews.m in Sources */,
-				BDA52E6B166D2B20008280E6 /* TDRouter+EmitHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
