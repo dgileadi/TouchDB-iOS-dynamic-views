@@ -1,7 +1,0 @@
-//
-// Prefix header for all source files of the 'TouchDB.iOS.Dynamic.Views' target in the 'TouchDB.iOS.Dynamic.Views' project
-//
-
-#ifdef __OBJC__
-    #import <Foundation/Foundation.h>
-#endif
