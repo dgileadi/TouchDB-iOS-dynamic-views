@@ -19,22 +19,13 @@ NSString *kMapJavascript =
 "    if (result.length > 0) result += ',';"
 "    result += JSON.stringify({key: key, value: value});"
 "  };"
-"  var v = %@;"
-"  v(doc);"
+"  var map = %@;"
+"  map(doc);"
 "  return '[' + result + ']'"
 "})(%@)";
 
 NSString *kReduceJavascript =
-@"(function(keys, values, rereduce) {"
-"  var result = '';"
-"  var emit = function(key, value) {"
-"    if (result.length > 0) result += ',';"
-"    result += JSON.stringify({key: key, value: value});"
-"  };"
-"  var v = %@;"
-"  v(doc);"
-"  return '[' + result + ']'"
-"})(%@)";
+@"(%@)(%@, %@, %@)";
 
 
 @implementation TDDynamicViews
